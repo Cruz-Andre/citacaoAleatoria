@@ -1,13 +1,17 @@
-import './App.css'
 import Citacao from './components/Citacao/Citacao'
 import Footer from './components/Footer/Footer'
+
+import './styles/App.css'
 
 function App() {
 
   return (
-    <section id='wrapper' className="App">
-      <Citacao />      
-    </section>
+    <>
+      <main id='wrapper' className="App">
+        <Citacao />
+      </main>
+      <Footer />
+    </>
   )
 }
 

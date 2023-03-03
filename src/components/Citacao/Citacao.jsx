@@ -1,50 +1,51 @@
-import Footer from "../Footer/Footer"
-import quotes from "../../../json/quotes.json"
-import axios from "axios"
 import { useEffect, useState } from "react"
+import ImageAuthor from "../ImageAuthor/ImageAuthor";
+
+import './Citacao.css'
 
 const Citacao = () => {
 
-  const [quotesDados, setQuotesDados] = useState([])
+  const [quotesDados, setQuotesDados] = useState([{}])
+  const [citacaoAleatoria, setCitacaoAleatoria] = useState({})
 
-  // useEffect(() => {
-  //   fetch("../../../json/quotes.json")
-  //     .then(resposta => resposta.json())
-  //     .then(dados => {
-  //       setQuotesDados(dados.quotes)
-  //     })
+  const pegarCitacoes = async () => {
+    try {
+      const response = await fetch("../../../json/quotes.json");
+      const dados = await response.json()
+      setQuotesDados(dados.quotes)
+      console.log('requisição')
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  
+  const citacoesAleatoreas = quotesDados[Math.floor(Math.random() * quotesDados.length)]
+  const gerarCitacaoAleatoria = () => {
+    setCitacaoAleatoria(citacoesAleatoreas)
+    return citacoesAleatoreas
+  }
 
-  // }, [])
 
   useEffect(() => {
-    const pegarCitacoes = async () => {
-      try {
-        const response = await axios.get("../../../json/quotes.json");
-        setQuotesDados(response.data.quotes);
-      } catch (error) {
-        console.error(error);
-      }
-    }
     pegarCitacoes()
   }, []);
   
+  console.log(citacaoAleatoria.quote == undefined)
 
+  return (
+    <article id='quote-box'>
+      <div className='qoute-text'>
+        <span id='text'>{citacaoAleatoria.quote == undefined ? citacoesAleatoreas.quote : citacaoAleatoria.quote}</span>
+      </div>
 
-  console.log(quotesDados.map(s => s.quote))
+      <div className='qoute-author'>
+        <span id='author'>{citacaoAleatoria.author == undefined ? citacoesAleatoreas.author : citacaoAleatoria.author}</span>
+      </div>
+      <button id="new-quote" onClick={gerarCitacaoAleatoria}>Nova citação</button>
+      <ImageAuthor />
+    </article>
 
-
-return (
-  <article id='quote-box'>
-    <div className='qoute-text'>
-      <span id='text'>OI</span>
-    </div>
-
-    <div className='qoute-author'>
-      <span id='author'>EU</span>
-    </div>
-    <Footer />
-  </article>
-)
+  )
 }
 
 export default Citacao

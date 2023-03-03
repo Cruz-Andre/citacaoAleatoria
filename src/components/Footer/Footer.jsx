@@ -1,6 +1,9 @@
 const Footer = () => {
   return (
-    <footer>Desafio FreeCodeCamp: Citação Aleatória - André Cruz - 2023</footer>
+    <footer>
+      <p>Desafio FreeCodeCamp: Citação Aleatória</p>
+      <p>por André Cruz - 2023</p>
+    </footer>
   )
 }
 
