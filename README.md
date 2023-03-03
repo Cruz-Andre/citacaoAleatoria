@@ -33,3 +33,9 @@ Você pode usar qualquer mistura de HTML, JavaScript, CSS, Bootstrap, SASS, Reac
 - História de usuário nº 11: o elemento wrapper #quote-box deve ser centralizado horizontalmente. Execute testes com o zoom do navegador em 100% e com a página maximizada.
 
 Observação: o Twitter não permite que links sejam carregados em um iframe. Tente usar o atributo target="_blank" ou target="_top" no elemento #tweet-quote se o seu tweet não carregar. target="_top" vai substituir a aba atual para garantir que o seu trabalho foi salvo.
+
+## Tecnologias utilizadas no projeto
+* HTML
+* CSS
+* JavaScript
+* React
