@@ -1,15 +1,15 @@
 #quote-box {
-  background-color: #fff;
+  background-color: #3C2A21;
   border-radius: 0.4rem;
   overflow: hidden;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.2s;
 }
 
 #quote-box:hover {
   transform: translateY(-0.5%);
-  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4rem 8rem rgba(229, 229, 203, 0.1);
 }
 
 .quote-content {
@@ -20,7 +20,7 @@
   text-align: center;
   font-size: 3rem;
   font-weight: 500;
-  color: #0d0d0d;
+  color: #E5E5CB;
   margin-bottom: 1.5rem;
 }
 
@@ -29,7 +29,7 @@
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   line-height: 1.7;
-  color: #3d3d3d;
+  color: #E5E5CB;
   margin-bottom: 2.5rem;
 }
 
@@ -39,8 +39,8 @@
   padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
-  color: #3363ff;
-  background-color: #e6ecff;
+  color: #3C2A21;
+  background-color: #D5CEA3;
   border: none;
   border-radius: 0.4rem;
   transition: 0.2s;
@@ -48,5 +48,5 @@
 }
 
 #new-quote:hover, #new-quote:active {
-  background-color: #dce4ff;
+  background-color: #E5E5CB;
 }

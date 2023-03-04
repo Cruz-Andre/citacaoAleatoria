@@ -2,6 +2,14 @@
 ## em construção
 <hr>
 
+## TODO
+* As duas histórias de usuário faltantes;
+* Imagem dinamica de acordo com o autor;
+* cores aleatórias;
+* footer.
+
+<hr>
+
 
 Criar uma máquina de citação aleatória
 Objetivo: criar uma aplicação que funcione de modo semelhante ao que vemos em: https://random-quote-machine.freecodecamp.rocks/.
@@ -39,3 +47,4 @@ Observação: o Twitter não permite que links sejam carregados em um iframe. Te
 * CSS
 * JavaScript
 * React
+

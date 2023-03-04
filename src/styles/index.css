@@ -1,23 +1,21 @@
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: inherit;
 }
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
   padding: 6rem;
-  background-color: #f5f5f5;
+  background-color: #1A120B;
   font-family: "Inter", sans-serif;
+  width: 100%;
 }
 @media (max-width: 60em) {
   body {
@@ -25,17 +23,19 @@ body {
   }
 }
 
-#root {
-  display: grid;
-  width: 114rem;
-  grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: start;
-}
-@media (max-width: 60em) {
-  #root {
-    grid-gap: 3rem;
+
+@media (max-width: 650px) {
+  html {
+    font-size: 65%;
   }
 }
 
 
+@media (min-width: 1300px) {
+  body {
+    width: 50%;
+  }
+  html {
+    font-size: 90%;
+  }
+}

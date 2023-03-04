@@ -6,7 +6,13 @@
 }
 
 .figureContainer img {
-  width: 90%;
-  height: 18rem;
-  object-fit: cover;
+  width: 100%;
+  height: 20rem;
+}
+
+@media (min-width: 1024px) {
+  .figureContainer img {
+    width: 70%;
+    border-radius: 0.4rem;
+  }
 }

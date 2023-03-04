@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <main id='wrapper'>
+      <main id='wrapper' className='App'>
         <Citacao />
       </main>
       <Footer />
