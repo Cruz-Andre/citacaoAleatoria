@@ -1,14 +1,12 @@
 .figureContainer {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  align-items: center; */
-  width: 80%;
-  margin: 0;
-  border: 10px solid green;
+  align-items: center;
 
 }
 
 .figureContainer img {
   width: 90%;
-  border-radius: 12px;
+  height: 18rem;
+  object-fit: cover;
 }

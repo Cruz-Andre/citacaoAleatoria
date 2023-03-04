@@ -1,4 +1,12 @@
-#root {
-  margin: 0 auto;
-  text-align: center;
+/* .App {
+  display: grid;
+  width: 114rem;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
 }
+@media (max-width: 60em) {
+  .App {
+    grid-gap: 3rem;
+  }
+} */
