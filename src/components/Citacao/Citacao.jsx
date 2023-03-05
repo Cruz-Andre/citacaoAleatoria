@@ -19,26 +19,30 @@ const Citacao = () => {
     }
   }
 
-  const citacoesAleatoreas = quotesDados[Math.floor(Math.random() * quotesDados.length)]
-  const gerarCitacaoAleatoria = () => {
-    return setCitacaoAleatoria(citacoesAleatoreas)
+  const gerarCitacaoAleatoria = (dados) => {
+    const citacao = dados[Math.floor(Math.random() * quotesDados.length)]
+    return setCitacaoAleatoria(citacao)
   }
-
 
   useEffect(() => {
     pegarCitacoes()
   }, []);
 
-  console.log(citacaoAleatoria.quote == undefined)
+  useEffect(() => {
+    gerarCitacaoAleatoria(quotesDados)
+  }, [quotesDados])
+
+  //console.log(citacaoAleatoria.quote == undefined)
+  //console.log(citacaoAleatoria)
 
   return (
     <section id='quote-box'>
         <div className='qoute'>
           <ImageAuthor />
           <div className="quote-content">
-            <h1 id='author'>{citacaoAleatoria.quote == undefined ? citacoesAleatoreas.author : citacaoAleatoria.author}</h1>
-            <p id='text'>{citacaoAleatoria.quote == undefined ? citacoesAleatoreas.quote : citacaoAleatoria.quote}</p>
-            <button id="new-quote" onClick={gerarCitacaoAleatoria}>Nova citação</button>
+            <h1 id='author'>{citacaoAleatoria.author}</h1>
+            <p id='text'>{citacaoAleatoria.quote}</p>
+            <button id="new-quote" onClick={() => gerarCitacaoAleatoria(quotesDados)}>Nova citação</button>
           </div>
         </div>
     </section>
