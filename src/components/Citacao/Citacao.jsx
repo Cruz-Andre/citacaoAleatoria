@@ -10,7 +10,7 @@ const Citacao = () => {
 
   const pegarCitacoes = async () => {
     try {
-      const response = await fetch("./json/quotes.json");
+      const response = await fetch("/json/quotes.json");
       const dados = await response.json()
       setQuotesDados(dados.quotes)
       console.log('requisição:', dados.quotes)
