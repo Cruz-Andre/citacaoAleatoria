@@ -33,9 +33,13 @@
   margin-bottom: 2.5rem;
 }
 
-#new-quote {
-  display: block;
-  width: 100%;
+.quote-buttons {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.new-quote {
   padding: 1.5rem;
   font-size: 2rem;
   text-align: center;
@@ -43,10 +47,22 @@
   background-color: #D5CEA3;
   border: none;
   border-radius: 0.4rem;
-  transition: 0.2s;
   cursor: pointer;
 }
 
-#new-quote:hover, #new-quote:active {
+.tweet-quote {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #3C2A21;
+  background-color: #D5CEA3;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.new-quote:hover, .tweet-quote:hover, .new-quote:active, .tweet-quote:active {
   background-color: #E5E5CB;
 }

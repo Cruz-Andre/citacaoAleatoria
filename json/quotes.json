@@ -2,99 +2,133 @@
   "quotes": [
     {
       "quote": "Foi sem querer querendo...",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/chaves.jpeg"
     },
     {
       "quote": "Já chegou o disco voador!",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/disco.png"
     },
     {
       "quote": "Volta o cão arrependido, com suas orelhas tão fartas, com seu osso roído e com o rabo entre as patas.",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/cao.jpg"
     },
     {
       "quote": "Ninguém tem paciência comigo!",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/chaves.jpeg"
     },
     {
       "quote": "Teria sido melhor ir ver o filme do Pelé!",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/pele.png"
     },
     {
-      "quote": "Ai, que burro, dá zero pra ele!.",
-      "author": "Chaves"
+      "quote": "Ai, que burro, dá zero pra ele!",
+      "author": "Chaves",
+      "image": "/images/zero.jpg"
     },
     {
       "quote": "Tá bom, mas não se irrite!",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/irrite.jpg"
     },
     {
-      "quote": "Carne de burro não é transparente.",
-      "author": "Chaves"
+      "quote": "Carne de burro não é transparente!",
+      "author": "Chaves",
+      "image": "/images/carne.png"
     },
     {
       "quote": "Sabe qual o animal que come com o rabo? Todos, porque eles não podem tirar o rabo para comer.",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/rabo.png"
     },
     {
       "quote": "E como é? E como eu disse?",
-      "author": "Chaves"
+      "author": "Chaves",
+      "image": "/images/como.jpg"
     },
     {
-      "quote": "Suspeitei desde o princípio",
-      "author": "Chapolin"
+      "quote": "Suspeitei desde o princípio.",
+      "author": "Chapolin",
+      "image": "/images/suspeitei.jpg"
     },
     {
-      "quote": "Não contavam com minha astúcia.",
-      "author": "Chapolin"
+      "quote": "Não contavam com minha astúcia!",
+      "author": "Chapolin",
+      "image": "/images/astucia.gif"
     },
     {
       "quote": "Todos os meus movimentos são friamente calculados.",
-      "author": "Chapolin"
+      "author": "Chapolin",
+      "image": "/images/movimentos.jpg"
     },
     {
-      "quote": "Sigam-me os bons.",
-      "author": "Chapolin"
+      "quote": "Sigam-me os bons!",
+      "author": "Chapolin",
+      "image": "/images/bons.gif"
     },
     {
       "quote": "Pepeee!, já tirei a vela!",
-      "author": "Chapolin"
+      "author": "Chapolin",
+      "image": "/images/pepe.jpg"
     },
     {
       "quote": "A vingança nunca é plena, mata a alma e envenena.",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/vinganca.gif"
     },
     {
       "quote": "Somente um idiota responde uma pergunta com outra pergunta.",
-      "author": "Seu Madruga"
+      "author": "Seu Barriga",
+      "image": "/images/idiotas.jpg"
     },
     {
       "quote": "O trabalho não é ruim. Ruim é ter de trabalhar!",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/trabalho.jpg"
     },
     {
       "quote": "Pra aprender uma língua estrangeira você tem que primeiro estudar anatomia, porque anatomia estuda o corpo e a língua faz parte dele.",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/lingua.jpg"
     },
     {
       "quote": "Quero ver, Outra vez, Seus olhinhos de noite serena.",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/outravez.jpg"
     },
     {
       "quote": "Que que foi, que que foi, que que há?",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/quequeha.jpg"
     },
     {
       "quote": "Devemos perdoar as ofensas, devemos perdoar as afrontas. Devemos perdoar os aluguéis atrasados.",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/perdoar.jpg"
+    },
+    {
+      "quote": "Pague o aluguel!",
+      "author": "Seu Barriga",
+      "image": "/images/pague.jpg"
     },
     {
       "quote": "Se soubesse que tinha mandado um idiota fazer isso, tinha ido eu mesmo.",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/idiota.jpg"
     },
     {
       "quote": "Essa caveira significa prerigo, entenderam bem? PRE-RI-GO!",
-      "author": "Seu Madruga"
+      "author": "Seu Madruga",
+      "image": "/images/perigo.jpg"
+    },
+    {
+      "quote": "Vamos tesouro, não se misture com essa gentalha!",
+      "author": "Dona Florinda",
+      "image": "/images/gentalha.gif"
     }
   ]
 }

@@ -1,11 +1,10 @@
 import './ImageAuthor.css'
 
-const ImageAuthor = () => {
-
+const ImageAuthor = ({imagemAuthor}) => {
   return (
     <figure className="figureContainer">
-      <img src='/images/chaves.jpeg' alt="Chaves" />
-      <figcaption>Chaves</figcaption>
+      <img src={imagemAuthor} alt="Chaves" />
+      {/* <figcaption>Chaves</figcaption> */}
     </figure>
   )
 }
